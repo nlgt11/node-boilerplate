@@ -19,7 +19,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "author": "",
   "license": "ISC",
